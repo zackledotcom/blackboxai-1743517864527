@@ -283,3 +283,15 @@
 2025-04-01 14:00:46,935 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
 2025-04-01 14:00:46,936 - werkzeug - WARNING -  * Debugger is active!
 2025-04-01 14:00:46,937 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:31:50,138 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 14:31:50,140 - werkzeug - INFO -  * Running on http://172.17.0.2:8000/ (Press CTRL+C to quit)
+2025-04-01 14:31:50,140 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:31:51,389 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:31:51,391 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:31:54,473 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PNnn1Ie HTTP/1.1" 200 -
+2025-04-01 14:31:54,675 - web_dashboard - INFO - Client connected
+2025-04-01 14:31:54,676 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:31:54] "POST /socket.io/?EIO=4&transport=polling&t=PNnn1M5&sid=7vXcAjKeeWqWCCZgAAAA HTTP/1.1" 200 -
+2025-04-01 14:31:54,681 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PNnn1M6&sid=7vXcAjKeeWqWCCZgAAAA HTTP/1.1" 200 -
+2025-04-01 14:31:55,227 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:31:55] "GET /socket.io/?EIO=4&transport=polling&t=PNnn1PS&sid=7vXcAjKeeWqWCCZgAAAA HTTP/1.1" 200 -
+2025-04-01 14:31:55,446 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:31:55] "GET /socket.io/?EIO=4&transport=polling&t=PNnn1Y1&sid=7vXcAjKeeWqWCCZgAAAA HTTP/1.1" 200 -
