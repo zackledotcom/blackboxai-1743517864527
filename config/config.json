@@ -1,0 +1,12 @@
+{
+    "reddit": {},
+    "subreddits": [],
+    "bot_actions": {
+        "upvote": true,
+        "comment": true,
+        "response_message": ""
+    },
+    "ui": {
+        "do_not_disturb": []
+    }
+}
