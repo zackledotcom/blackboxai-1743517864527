@@ -1,0 +1,414 @@
+/* Base */
+body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background: #030303;
+    color: #D7DADC;
+}
+
+/* Card */
+.card {
+    @apply bg-[#1A1A1B] rounded-md;
+    border: 1px solid #343536;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+}
+
+.card:hover {
+    border-color: #4A4A4B;
+    transition: border-color 0.2s ease;
+}
+
+/* Card Title */
+.card-title {
+    @apply text-[16px] font-medium text-[#D7DADC];
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+/* Accordion */
+.accordion-header {
+    @apply flex items-center justify-between cursor-pointer;
+    padding: 4px 0;
+    user-select: none;
+}
+
+.accordion-header:hover h3 {
+    color: #FF4500;
+}
+
+.accordion-header i {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #818384;
+}
+
+.accordion-content {
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 16px;
+    height: auto;
+    max-height: 0;
+}
+
+.accordion-content.open {
+    max-height: none;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #818384;
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+.input {
+    @apply w-full rounded-md;
+    background: #1A1A1B;
+    color: white;
+    border: 1px solid #343536;
+    font-size: 15px;
+    line-height: 21px;
+    padding: 12px 16px;
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:hover {
+    border-color: #4A4A4B;
+    background: #1A1A1B;
+}
+
+.input:focus {
+    border-color: #24A0ED;
+    background: #1A1A1B;
+    outline: none;
+    box-shadow: 0 0 0 1px #24A0ED;
+}
+
+.input::placeholder {
+    color: #818384;
+    opacity: 1;
+}
+
+/* Select Input */
+select.input {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23818384' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+select.input:hover {
+    background-color: #272729;
+}
+
+/* Checkbox Groups */
+.checkbox-group {
+    @apply flex items-center space-x-3 py-2 px-3 rounded cursor-pointer;
+    transition: all 0.15s ease;
+}
+
+.checkbox-group:hover {
+    background: #272729;
+}
+
+.checkbox-group input[type="checkbox"] {
+    @apply rounded;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #343536;
+    background: #1A1A1B;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+    background: #FF4500;
+    border-color: #FF4500;
+}
+
+.checkbox-group input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox-group span {
+    @apply text-sm text-[#D7DADC];
+}
+
+/* Preview Box */
+.preview-box {
+    @apply rounded-md overflow-hidden;
+    border: 1px solid #343536;
+    background: #1A1A1B;
+}
+
+.preview-header {
+    @apply flex items-center space-x-2 px-4 py-3;
+    background: #272729;
+    border-bottom: 1px solid #343536;
+}
+
+.preview-header i {
+    color: #FF4500;
+}
+
+.preview-header span {
+    @apply text-sm font-medium text-[#D7DADC];
+}
+
+.preview-content {
+    @apply p-4 text-sm leading-6;
+    color: #D7DADC;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 28px;
+}
+
+.form-group:last-child {
+    margin-bottom: 20px;
+}
+
+/* Input Groups */
+.input-group {
+    @apply flex items-center space-x-3;
+    margin-bottom: 14px;
+}
+
+.input-group:last-child {
+    margin-bottom: 0;
+}
+
+.input-group i {
+    @apply text-base;
+    color: #FF4500;
+    width: 20px;
+    text-align: center;
+}
+
+/* Button */
+.button {
+    @apply text-[15px] font-medium leading-[18px] rounded-full w-full;
+    background: #FF4500;
+    color: white;
+    padding: 12px 24px;
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #FF5414;
+}
+
+.button:active {
+    background: #FF4500;
+    transform: translateY(1px);
+}
+
+/* Textarea */
+textarea.input {
+    min-height: 120px;
+    line-height: 1.5;
+    padding: 16px;
+    resize: none;
+}
+
+/* Instructions */
+.instructions {
+    @apply text-sm leading-6;
+    color: #D7DADC;
+}
+
+.instructions p {
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.instructions p:last-child {
+    margin-bottom: 0;
+}
+
+/* Tabs */
+.tab {
+    @apply px-4 py-2 rounded-full text-[14px] font-medium;
+    color: #818384;
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.tab:hover {
+    background: #272729;
+}
+
+.tab-active {
+    @apply px-4 py-2 rounded-full text-[14px] font-medium;
+    background: #272729;
+    color: #D7DADC;
+}
+
+/* Add Bot Button */
+.add-bot-btn {
+    @apply flex items-center justify-center text-[15px] font-medium;
+    color: #FF4500;
+    padding: 24px;
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.add-bot-btn:hover {
+    background: #272729;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #343536;
+    border-radius: 4px;
+    border: 2px solid #1A1A1B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4A4A4B;
+}
+
+/* Container */
+.container {
+    @apply max-w-[984px] mx-auto px-4;
+}
+
+/* Header */
+header {
+    background: rgba(26, 26, 27, 0.9);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #343536;
+}
+
+/* Focus States */
+.input:focus-visible {
+    box-shadow: 0 0 0 1px #24A0ED;
+}
+
+.button:focus-visible {
+    box-shadow: 0 0 0 2px rgba(255, 69, 0, 0.2);
+}
+
+/* Spacing Utilities */
+.space-y-6 > * + * {
+    margin-top: 24px;
+}
+
+.space-y-4 > * + * {
+    margin-top: 16px;
+}
+
+.space-y-3 > * + * {
+    margin-top: 12px;
+}
+
+.space-y-2 > * + * {
+    margin-top: 8px;
+}
+
+/* Selection */
+::selection {
+    background: rgba(255, 69, 0, 0.2);
+    color: #D7DADC;
+}
+
+/* Error & Success States */
+.input.error {
+    border-color: #FF4500;
+    box-shadow: 0 0 0 1px #FF4500;
+}
+
+.input.success {
+    border-color: #46D160;
+    box-shadow: 0 0 0 1px #46D160;
+}
+
+/* Feed Item */
+.feed-item {
+    @apply bg-[#1A1A1B] rounded-md;
+    border: 1px solid #343536;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.feed-item:hover {
+    border-color: #4A4A4B;
+    transform: translateY(-1px);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Typography */
+.text-sm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+/* Transitions */
+* {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    gap: 24px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+    
+    .input {
+        padding: 8px 12px;
+    }
+    
+    .button {
+        padding: 10px 20px;
+    }
+}
+
+/* Custom Template Display */
+#custom-template {
+    display: none;
+}
+
+/* ChatGPT Settings Display */
+#chatgpt-settings {
+    display: block;
+}
