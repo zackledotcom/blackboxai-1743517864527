@@ -1,0 +1,285 @@
+2025-04-01 13:23:22,486 - web_dashboard - INFO - Created default configuration file
+2025-04-01 13:23:22,486 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:23:23,094 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:23:23,094 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:03,479 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:24:04,296 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:24:04,297 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:07,184 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:24:07,258 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:24:07,487 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:24:08,182 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:24:08,183 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:08,332 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:24:08,332 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:08,424 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:24:08,425 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:23,376 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:24:23,888 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:24:23,888 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:26:54,602 - web_dashboard - INFO - Client connected
+2025-04-01 13:26:54,605 - engineio.server - ERROR - Invalid session OTxF-ycCnrjk0RiSAAAA (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:26:54,609 - engineio.server - ERROR - Invalid session OTxF-ycCnrjk0RiSAAAA (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:26:54,763 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:56,115 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:26:56,202 - engineio.server - ERROR - Invalid session m0gqQe8u7Cwe8m0PAAAA (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:26:56,204 - web_dashboard - INFO - Client connected
+2025-04-01 13:26:56,216 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:26:56,550 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:26:56,801 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:26:56,802 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:26:57,221 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:26:57,221 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:26:57,290 - web_dashboard - INFO - Client connected
+2025-04-01 13:26:57,292 - engineio.server - ERROR - Invalid session dMmRuHgMSAnQCoKnAAAC (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:26:58,698 - engineio.server - ERROR - Invalid session z-OB6vuB0s4AD540AAAC (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:26:58,700 - web_dashboard - INFO - Client connected
+2025-04-01 13:26:58,706 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:26:59,906 - web_dashboard - INFO - Client connected
+2025-04-01 13:26:59,910 - engineio.server - ERROR - Invalid session rlUNEyMI2UcGksR-AAAE (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:27:00,600 - web_dashboard - INFO - Client connected
+2025-04-01 13:27:00,616 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:27:01,898 - web_dashboard - INFO - Client connected
+2025-04-01 13:27:02,912 - web_dashboard - INFO - Client connected
+2025-04-01 13:27:02,923 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:27:03,718 - web_dashboard - INFO - Client connected
+2025-04-01 13:27:05,208 - web_dashboard - INFO - Client connected
+2025-04-01 13:27:14,875 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:15,366 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:15,367 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:27,072 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,167 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,226 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:27,545 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:27,582 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,656 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,657 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,839 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,842 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,858 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,980 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:28,106 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:28,314 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:28,410 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:28,547 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:28,609 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:28,624 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:28,688 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:30,101 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:30,122 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:30,441 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:30,442 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:30,486 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:30,506 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:30,841 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:30,846 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:30,888 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:30,902 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:31,103 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:31,104 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:31,132 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:31,133 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:31,165 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:31,165 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:31,184 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:31,185 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:28:24,800 - web_dashboard - INFO - Client connected
+2025-04-01 13:28:24,801 - engineio.server - ERROR - Invalid session xdP6JE8jMXlcJCFJAAAA (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:28:25,085 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:28:25,727 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:28:25,992 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:28:26,378 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:28:26,379 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:28:26,604 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:28:26,604 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:28:42,042 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:28:42,547 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:28:42,547 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:29:24,705 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:30:29,551 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:30:29,649 - web_dashboard - INFO - Client connected
+2025-04-01 13:30:29,681 - engineio.server - ERROR - Invalid session -op2-E4NdSUhmQHwAAAA (further occurrences of this error will be logged with level INFO)
+2025-04-01 13:30:29,855 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:30:29,932 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:30:30,474 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:30:30,475 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:30:30,524 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:30:30,524 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:30:45,707 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:30:46,223 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:30:46,224 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:31:29,590 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:32:48,079 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,094 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,106 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,107 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,119 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,207 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,220 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,227 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,230 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,290 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,348 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,646 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,818 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,982 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,998 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:49,200 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,390 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,445 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,482 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,513 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,516 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,531 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,531 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,538 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,574 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,599 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,861 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,876 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,887 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:49,985 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:53,397 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,398 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,568 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,568 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,680 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,686 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,687 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,688 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,692 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,709 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,710 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,713 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,726 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,729 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,752 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,753 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,814 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,815 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,865 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,866 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,889 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,890 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,907 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,908 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,929 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,930 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,950 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,951 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:53,962 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:53,962 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:59:10,150 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:59:10,704 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:59:10,704 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 14:00:19,000 - web_dashboard - INFO - Client connected
+2025-04-01 14:00:19,087 - engineio.server - ERROR - Invalid session fjrOqu6KDcF_XuU_AAAA (further occurrences of this error will be logged with level INFO)
+2025-04-01 14:00:19,204 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:00:19,205 - web_dashboard - INFO - [14:00:19] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:00:21,285 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:21,902 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:22,436 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:22,437 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 14:00:22,837 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:22,837 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 14:00:32,022 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:32,534 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:32,534 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 14:00:39,051 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,058 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,141 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,312 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:39,318 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,331 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,343 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,416 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:39,479 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:39,660 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,663 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,666 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,684 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,696 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,773 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,800 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,907 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,922 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,989 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,985 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,999 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:40,028 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:40,346 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:40,424 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:40,526 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,143 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,245 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,362 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,402 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,413 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,557 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,578 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,604 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,612 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,692 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,699 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,701 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:41,719 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:45,222 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:45,238 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:45,238 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:45,421 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 14:00:45,422 - werkzeug - INFO -  * Running on http://172.17.0.2:8000/ (Press CTRL+C to quit)
+2025-04-01 14:00:45,425 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:45,441 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:45,442 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:45,635 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:45,656 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:45,657 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:45,870 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:45,871 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:45,873 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,194 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,209 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,210 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,226 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,226 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,227 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,241 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,249 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,250 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,402 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,402 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,403 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,472 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,508 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,509 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,588 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,588 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,589 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,693 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,693 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,705 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,724 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,733 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,737 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,805 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,806 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,806 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,831 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,832 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,832 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,867 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,867 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,868 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,868 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,874 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,875 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,893 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,894 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,894 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,927 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,927 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,928 - werkzeug - INFO -  * Debugger PIN: 724-864-215
+2025-04-01 14:00:46,935 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:46,936 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:46,937 - werkzeug - INFO -  * Debugger PIN: 724-864-215
