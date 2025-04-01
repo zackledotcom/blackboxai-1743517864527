@@ -1,0 +1,107 @@
+2025-04-01 13:23:18,687 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:23:19,304 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:23:19,305 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:06,739 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:27:27,107 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,262 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:27,877 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:27,878 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:57,388 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:57,908 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:57,909 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:48,125 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,301 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:48,941 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:48,942 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:33:18,914 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:33:19,449 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:33:19,450 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:59:56,635 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:59:57,168 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:59:57,169 - werkzeug - INFO -  * Debugger PIN: 408-759-895
+2025-04-01 14:00:39,773 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,904 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:40,987 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:40,989 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:40,990 - werkzeug - INFO -  * Debugger PIN: 114-877-150
+2025-04-01 14:01:24,390 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 14:01:24,391 - werkzeug - INFO -  * Running on http://172.17.0.2:8000/ (Press CTRL+C to quit)
+2025-04-01 14:01:24,391 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:01:24,934 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:01:24,935 - werkzeug - INFO -  * Debugger PIN: 114-877-150
+2025-04-01 14:01:38,341 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET / HTTP/1.1" 200 -
+2025-04-01 14:01:38,420 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:01:38,855 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng64V HTTP/1.1" 200 -
+2025-04-01 14:01:38,867 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:01:38,886 - web_dashboard - INFO - Client connected
+2025-04-01 14:01:38,887 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "POST /socket.io/?EIO=4&transport=polling&t=PNng653&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,900 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng659&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,912 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng65U&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,923 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng65f&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,929 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:38,930 - web_dashboard - INFO - [14:01:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:38,938 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 14:01:49,917 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:01:49,919 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:49] "GET /socket.io/?EIO=4&transport=websocket&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:03:14,222 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET / HTTP/1.1" 200 -
+2025-04-01 14:03:14,302 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:03:14,855 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /socket.io/?EIO=4&transport=polling&t=PNngTWY HTTP/1.1" 200 -
+2025-04-01 14:03:14,862 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:03:14,906 - web_dashboard - INFO - Client connected
+2025-04-01 14:03:14,907 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "POST /socket.io/?EIO=4&transport=polling&t=PNngTXN&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:03:14,913 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /socket.io/?EIO=4&transport=polling&t=PNngTXQ&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:03:15,252 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:15] "GET /socket.io/?EIO=4&transport=polling&t=PNngTbk&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:05:20,884 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:05:20,885 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:05:20] "GET /socket.io/?EIO=4&transport=websocket&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:07:29,539 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET / HTTP/1.1" 200 -
+2025-04-01 14:07:29,571 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:07:29,939 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:07:29,940 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET /socket.io/?EIO=4&transport=polling&t=PNnhRo9 HTTP/1.1" 200 -
+2025-04-01 14:07:30,029 - web_dashboard - INFO - Client connected
+2025-04-01 14:07:30,029 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:30] "GET /socket.io/?EIO=4&transport=polling&t=PNnhRp5&sid=1q6YfCxmXVb3ABezAAAE HTTP/1.1" 200 -
+2025-04-01 14:07:30,033 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:30] "POST /socket.io/?EIO=4&transport=polling&t=PNnhRp3&sid=1q6YfCxmXVb3ABezAAAE HTTP/1.1" 200 -
+2025-04-01 14:10:05,594 - RedditBot - INFO - Authenticated as testuser123
+2025-04-01 14:10:05,595 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:10:05,595 - web_dashboard - INFO - [14:10:05] Authentication - SUCCESS: Authenticated as testuser123
+2025-04-01 14:10:05,597 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:05] "POST /api/authenticate HTTP/1.1" 200 -
+2025-04-01 14:10:05,666 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:10:05,666 - web_dashboard - INFO - [14:10:05] Set Target - SUCCESS: Set target to r/testsubreddit
+2025-04-01 14:10:05,667 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:05] "POST /api/set-target HTTP/1.1" 200 -
+2025-04-01 14:10:28,050 - RedditBot - INFO - Authenticated as testuser123
+2025-04-01 14:10:28,051 - web_dashboard - INFO - [14:10:28] Start Bot - SUCCESS: Bot started for testuser123
+2025-04-01 14:10:28,052 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:28] "POST /api/start HTTP/1.1" 200 -
+2025-04-01 14:10:28,051 - RedditBot - INFO - Bot started monitoring r/testsubreddit
+2025-04-01 14:10:29,236 - RedditBot - ERROR - Error in main loop: received 401 HTTP response
+2025-04-01 14:10:56,314 - RedditBot - INFO - Stopping bot...
+2025-04-01 14:10:56,315 - web_dashboard - INFO - [14:10:56] Stop Bot - SUCCESS: Bot stopped for testuser123
+2025-04-01 14:10:56,316 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:56] "POST /api/stop HTTP/1.1" 200 -
+2025-04-01 14:11:20,170 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:11:20,171 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:20] "GET /socket.io/?EIO=4&transport=websocket&sid=1q6YfCxmXVb3ABezAAAE HTTP/1.1" 200 -
+2025-04-01 14:11:29,295 - RedditBot - INFO - Bot stopped
+2025-04-01 14:11:55,013 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET / HTTP/1.1" 200 -
+2025-04-01 14:11:55,297 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:11:55,905 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:11:55,915 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET /socket.io/?EIO=4&transport=polling&t=PNniShC HTTP/1.1" 200 -
+2025-04-01 14:11:56,132 - web_dashboard - INFO - Client connected
+2025-04-01 14:11:56,133 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:56] "POST /socket.io/?EIO=4&transport=polling&t=PNniSkz&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:11:56,134 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:56] "GET /socket.io/?EIO=4&transport=polling&t=PNniSl5&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:11:56,634 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:56] "GET /socket.io/?EIO=4&transport=polling&t=PNniSou&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:12:00,750 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:12:00,751 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:00] "GET /socket.io/?EIO=4&transport=websocket&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:12:00,857 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:00] "GET / HTTP/1.1" 200 -
+2025-04-01 14:12:01,169 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+2025-04-01 14:12:01,429 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:12:01,433 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "GET /socket.io/?EIO=4&transport=polling&t=PNniU1i HTTP/1.1" 200 -
+2025-04-01 14:12:01,764 - web_dashboard - INFO - Client connected
+2025-04-01 14:12:01,765 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "POST /socket.io/?EIO=4&transport=polling&t=PNniU6p&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:01,767 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "GET /socket.io/?EIO=4&transport=polling&t=PNniU6u&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:02,238 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:02] "GET /socket.io/?EIO=4&transport=polling&t=PNniUAO&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:02,443 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:02] "GET /socket.io/?EIO=4&transport=polling&t=PNniUHf&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:44,096 - RedditBot - INFO - Authenticated as jon
+2025-04-01 14:12:44,097 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:12:44,097 - web_dashboard - INFO - [14:12:44] Authentication - SUCCESS: Authenticated as jon
+2025-04-01 14:12:44,099 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:44] "POST /api/authenticate HTTP/1.1" 200 -
+2025-04-01 14:12:44,318 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:12:44,318 - web_dashboard - INFO - [14:12:44] Set Target - SUCCESS: Set target to r/findacosigner
+2025-04-01 14:12:44,319 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:44] "POST /api/set-target HTTP/1.1" 200 -
