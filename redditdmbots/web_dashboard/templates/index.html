@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Bot Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    <!-- Load Socket.IO before other scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#030303] text-[#D7DADC] min-h-screen">
+    <header class="h-12 border-b border-[#343536] fixed w-full top-0 z-50 bg-[#1A1A1B]">
+        <nav class="container h-full flex items-center justify-between px-4">
+            <div class="flex items-center space-x-2">
+                <i class="fa-brands fa-reddit text-[#FF4500] text-[22px]"></i>
+                <span class="text-[15px] font-semibold tracking-tight">Reddit Bot Dashboard</span>
+                <span class="bot-status ml-4 text-xs text-[#818384]">
+                    <i class="fa-solid fa-circle text-gray-500 mr-2"></i>Inactive
+                </span>
+            </div>
+            <div class="flex items-center space-x-6 text-[12px] text-[#818384]">
+                <div class="flex items-center space-x-1.5 hover:text-[#D7DADC] cursor-pointer">
+                    <i class="fa-regular fa-message"></i>
+                    <span id="messages-count">0</span>
+                </div>
+                <div class="flex items-center space-x-1.5 hover:text-[#D7DADC] cursor-pointer">
+                    <i class="fa-regular fa-compass"></i>
+                    <span id="subreddits-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-14 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Bot Management Panel -->
+                <div class="md:col-span-1 space-y-4">
+                    <div id="bot-list" class="space-y-4">
+                        <!-- Add Bot Button -->
+                        <button id="add-bot" class="w-full bg-[#1A1A1B] text-[#FF4500] border border-[#FF4500] rounded-md p-3 flex items-center justify-center space-x-2 hover:bg-[#FF4500] hover:text-white transition-colors">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Add Bot</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Activity Feed -->
+                <div class="md:col-span-3">
+                    <div class="bg-[#1A1A1B] rounded-md border border-[#343536]">
+                        <div class="border-b border-[#343536] px-4 py-3">
+                            <h3 class="font-medium">Activity Feed</h3>
+                        </div>
+                        <div id="activity-feed" class="p-4 space-y-3 max-h-[600px] overflow-y-auto">
+                            <!-- Activity items will be added here dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bot Configuration Template -->
+    <template id="bot-config-template">
+        <div class="bot-config bg-[#1A1A1B] rounded-md p-4 border border-[#343536]">
+            <div class="bot-header cursor-pointer flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-robot text-[#FF4500]"></i>
+                    <span class="bot-name font-medium">New Bot</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="bot-status-indicator text-xs text-[#818384]">
+                        <i class="fa-solid fa-circle text-gray-500"></i>
+                    </span>
+                    <i class="fa-solid fa-chevron-down transition-transform"></i>
+                </div>
+            </div>
+            <div class="bot-content hidden mt-4 space-y-4">
+                <form class="bot-config-form space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Subreddit</label>
+                        <input type="text" name="subreddit" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Reddit Username</label>
+                        <input type="text" name="username" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Password</label>
+                        <input type="password" name="password" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Client ID</label>
+                        <input type="text" name="client_id" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-1">Client Secret</label>
+                        <input type="password" name="client_secret" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-sm">
+                    </div>
+                    <div class="flex space-x-2">
+                        <button type="submit" class="flex-1 bg-[#FF4500] text-white py-2 rounded text-sm font-medium">Start Bot</button>
+                        <button type="button" class="stop-bot hidden flex-1 bg-gray-600 text-white py-2 rounded text-sm font-medium">Stop Bot</button>
+                        <button type="button" class="remove-bot w-10 bg-red-500 text-white py-2 rounded text-sm font-medium">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </template>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>
